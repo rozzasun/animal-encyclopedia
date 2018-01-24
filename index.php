@@ -3,8 +3,16 @@
 ?>
 <html>
 	<head>
+		<!--info-->
 		<meta charset=utf-8>
+		<meta name="description" content="WebVR Animal Encyclopedia">
+  		<meta name="keywords" content="HTML,CSS,JavaScript">
+  		<meta name="author" content="Rosa Sun, Karen Fei">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>WebVr Animal Encyclopedia</title>
+
+		<!--sources/libraries/APIs-->
 		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
 		<script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
 		<script src="https://rawgit.com/chenzlabs/auto-detect-controllers/master/dist/aframe-auto-detect-controllers-component.min.js"></script>
@@ -840,5 +848,6 @@
 
 			<p>Source code: <a href="https://www.github.com/rozzasun/animalEncyclopedia/">www.github.com/rozzasun/animalEncyclopedia</a></p>
 		</div>
+
 	</body>
 </html>
