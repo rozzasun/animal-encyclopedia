@@ -26,12 +26,8 @@ envi.setAttribute('environment',{
 
 model.setAttribute('id',"model");
 model.setAttribute('json-model', 'src', "models/tiger1.json");
-model.setAttribute('scale', "5 5 5");
+model.setAttribute('scale', "3 3 3");
 model.setAttribute('animation-mixer', 'clip', "Walk");
 model.setAttribute('cursor-listener');
 model.setAttribute('position',"2 0 -4");
-model.setAttribute('rotation', "0 45 0");
-
-plane.setAttribute('position', '0 8.7 -20');
-plane.setAttribute('width', '13');
-plane.setAttribute('height', '5');
+model.setAttribute('rotation', "0 10 0");

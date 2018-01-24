@@ -16,18 +16,21 @@ envi.setAttribute('environment',{
 	active: 'true',
 	shadow:'true',
 	shadowSize: '30',
-	ground: 'noise',
+	ground: 'flat',
 	skyType: 'gradient',
-	skyColor: '#cce8ff',
+	skyColor: '#D3D3D3',
 	groundTexture: 'none',
-	groundColor: '#4f4226',
+	groundColor: '#333',
 	fog: 0.5
 }, true);
 
 model.setAttribute('id',"model");
-model.setAttribute('json-model', 'src', "models/wolf.json");
-model.setAttribute('scale', "3 3 3");
-model.setAttribute('animation-mixer', 'clip', "Wolf_Walk_cycle_");
+model.setAttribute('json-model', 'src', "models/error.json");
+model.setAttribute('scale', "0.5 0.5 0.5");
 model.setAttribute('cursor-listener');
-model.setAttribute('position',"2 0 -4");
-model.setAttribute('rotation', "0 20 0");
+model.setAttribute('position',"0 1 -4");
+model.setAttribute('rotation', "0 0 0");
+
+plane.setAttribute('position', '0 8.7 -20');
+plane.setAttribute('width', '13');
+plane.setAttribute('height', '5');
