@@ -1,6 +1,6 @@
 # WebVR Animal Encyclopedia
 
-**Demo** [here](https://www.sktime.com)
+**Demo** [here](sktime.com)
 
 Working 3D models:
  - white tiger
